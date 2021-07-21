@@ -1,0 +1,78 @@
+.wrapper.app_home {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  .sidecolumn {
+    text-align: center;
+    padding: 20px 10px;
+    width: 260px;
+    border-right: 1px solid #999;
+    .logo {
+      width: 200px;
+      img {
+        width: 100%;
+      }
+      p {
+        margin-top: 10px;
+        font-family: Hiragino Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 21px;
+        color: #999;
+      }
+    }
+    .global_nav {
+      margin-left: 40px;
+      margin-top: 90px;
+      text-align: start;
+      .item {
+        margin-bottom: 50px;
+        font-family: Hiragino Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 36px;
+        color: #999;
+        &.active {
+          font-family: Hiragino Sans;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 24px;
+          line-height: 36px;
+          color: #07319e;
+        }
+      }
+    }
+  }
+  .main {
+    width: 100%;
+    height: 100vh;
+    padding: 20px 70px;
+    .header{
+      width: 100%;
+      display: flex;
+      .search{
+        width: 600px;
+        border: 1px solid #999;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        .icon{
+          font-size: 16px;
+        }
+        input{
+          width: 100%;
+          padding: 5px 20px;
+        }
+      }
+      .icon_btn{
+        margin-left: auto;
+        img{
+          border-radius: 100%;
+          width: 50px;
+        }
+      }
+    }
+  }
+}
